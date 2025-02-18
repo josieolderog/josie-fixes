@@ -23,12 +23,13 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #d1891c;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #dfc59f;
+  
 }
 
 /*-- Main Menu Styles--*/
@@ -40,7 +41,7 @@ nav ul {
   justify-content: space-between;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #dfc59f;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
@@ -53,6 +54,7 @@ nav a.active {
 /*-- Hero Unit Styles--*/
 header {
   text-align: center;
+  color: #d1891c;
   font-size: 150%;
   margin: auto;
   width: 510px;
@@ -91,6 +93,7 @@ figcaption {
   font-size: 16px;
   font-weight: lighter;
   font-family: 'Lato', sans-serif;
+  color: #d1891c;
 }
 .pagination {
   text-align: center;
@@ -101,12 +104,12 @@ figcaption {
   width: 96%;
 }
 a.button {
-  border: 2px solid #888;
+  border: 2px solid #d1891c;
   text-align: center;
   margin: auto;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #d1891c;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -114,9 +117,9 @@ a.button {
 }
 a.button:hover, a.button:active {
   justify-content: space-between;
-  border: 1px solid #444;
+  border: 10px solid #d1891c;
   text-decoration: none;
-  color: #222;
+  color: #d1891c;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
