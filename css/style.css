@@ -96,7 +96,7 @@ figcaption {
   color: #d1891c;
 }
 .pagination {
-  text-align: center;
+  justify-content: stretch;
   margin: auto;
   -ms-flex-align: stretch;
   margin-top: 2em;
@@ -105,8 +105,7 @@ figcaption {
 }
 a.button {
   border: 2px solid #d1891c;
-  text-align: center;
-  margin: auto;
+  justify-content: stretch;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
   color: #d1891c;
@@ -116,7 +115,8 @@ a.button {
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  justify-content: space-between;
+  justify-content: stretch;
+  cen
   border: 10px solid #d1891c;
   text-decoration: none;
   color: #d1891c;
